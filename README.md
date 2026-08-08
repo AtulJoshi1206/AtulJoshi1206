@@ -1,45 +1,100 @@
-<h1 align="center">Hi, I'm Atul Joshi 👋</h1>
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Bridging+Business+Problems+%26+AI+Systems;Agentic+Ops+%7C+LLM+Benchmarks+%7C+Applied+AI;Turning+Operational+Pain+Points+into+Shipped+Systems&center=true&width=600&height=80"></a>
-</p>
-<hr/>
-
-## 💫 About Me
-
-I sit at the intersection of **business operations and applied AI engineering** — translating messy, real-world ops problems (SLOs, fraud/violation review, order-to-cash reconciliation, incident response) into systems that make deterministic, auditable decisions, not just LLM suggestions.
-
-🔭 Currently building **agentic benchmarks & decision engines** that operators can actually trust in production<br>
-🧭 I work backwards from the business outcome (cost, SLA, risk) to the architecture, not the other way round<br>
-🤝 Open to collaborating on applied-AI / AI-ops projects with real stakeholders on the other end
-
-## 🧩 How I work: business problem → shipped system
-
-| Business problem | System I built | Outcome |
-|---|---|---|
-| Traffic violation review is slow & inconsistent | **[GridLock-VioScan](https://github.com/AtulJoshi1206/GridLock-VioScan)** — YOLOv8 + Gemini Vision detection, automated severity scoring (VSI) & fine-waiver logic | Evidence-backed, auditable violation pipeline |
-| SRE teams need to trust AI triage before it touches prod | **[IncidentOps-Agentic-SRE](https://github.com/AtulJoshi1206/IncidentOps-Agentic-SRE)** — OpenEnv benchmark scoring LLM triage/diagnosis/remediation | Measurable trust bar for agentic incident response |
-| Finance can't risk LLM hallucination on O2C data | **[Dodge-AI-FDE](https://github.com/AtulJoshi1206/Dodge-AI-FDE)** — SAP order-to-cash data as a graph; LLM is a strict router, never a guesser | Zero-hallucination query layer over sensitive financial data |
-| Farm ops need decisions committed, not just advice | **[AI-Autonomous-Farming-Operator](https://github.com/AtulJoshi1206/AI-Autonomous-Farming-Operator)** — deterministic safety pipeline + conversational multi-agent layer (EN/HI) | System authorizes & verifies real actions, not recommendations |
-| Support orgs need SLOs held under load | **[supportops-env](https://github.com/AtulJoshi1206/supportops-env)** — OpenEnv benchmark for an AI coordinator triaging tickets & holding SLOs | Reproducible stress-test for agentic support ops |
-| Hidden system failures need diagnosis, not dashboards | **[sentinel-os-agentic-benchmark](https://github.com/AtulJoshi1206/sentinel-os-agentic-benchmark)** — trajectory-scored diagnostic reasoning benchmark | Quantified recovery efficiency for LLM agents |
-
-## 💻 Tech Stack & Tools
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![C++](https://img.shields.io/badge/C++-5C2D91?style=for-the-badge&logo=c++&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
-### 📊 Stats
 <div align="center">
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulJoshi1206&layout=compact&show_icon=true&theme=algolia" alt="AtulJoshi1206-langs"/>
-</div>
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=AtulJoshi1206&theme=algolia" alt="Github streak"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Atul%20Joshi&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Bridging%20Business%20Problems%20%26%20AI%20Systems&descAlignY=62&descSize=18" width="100%"/>
+
+<a href="https://atuljoshi.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-atuljoshi.netlify.app-1e3c72?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/atul-joshi-54928018a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:atul.joshi1206@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
 </div>
 
-## 🙋‍♂️ Let's Connect
-[![Gmail](https://img.shields.io/badge/-Atul_Joshi-grey?style=flat&logo=gmail)](mailto:atul.joshi1206@gmail.com)
-[![Linkedin](https://img.shields.io/badge/-Atul_Joshi-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atul-joshi-54928018a/)
-[![Github](https://img.shields.io/badge/-Atul_Joshi-black?style=flat&logo=github)](https://github.com/AtulJoshi1206)
-[![LeetCode](https://img.shields.io/badge/-Atul_Joshi-grey?style=flat&logo=leetcode)](https://leetcode.com/Atul_joshi/)
+<br/>
 
-<p align="center">
-  <img src="https://profile-counter.glitch.me/AtulJoshi1206/count.svg" />
-</p>
+## 🧭 What I actually do
+
+I sit at the **intersection of business operations and applied AI engineering**. Most of my work starts as a business problem — an SLA at risk, a fraud/violation review process that's too slow, a finance dataset nobody trusts an LLM near — and ends as a system that makes deterministic, auditable decisions in production, not just LLM suggestions.
+
+```
+Business pain point  →  Constraint-aware system design  →  Shipped, measurable outcome
+```
+
+<br/>
+
+## 🧩 Problem → System → Outcome
+
+<table>
+<tr><th align="left">Business problem</th><th align="left">System</th><th align="left">Outcome</th></tr>
+
+<tr>
+<td valign="top">Traffic violation review is slow &amp; inconsistent</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/GridLock-VioScan"><b>GridLock-VioScan</b></a><br/><sub>YOLOv8 + Gemini Vision detection, automated severity scoring (VSI) &amp; fine-waiver logic</sub></td>
+<td valign="top">Evidence-backed, auditable violation pipeline</td>
+</tr>
+
+<tr>
+<td valign="top">SRE teams need to trust AI triage before it touches prod</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/IncidentOps-Agentic-SRE"><b>IncidentOps-Agentic-SRE</b></a><br/><sub>OpenEnv benchmark scoring LLM triage / diagnosis / remediation</sub></td>
+<td valign="top">Measurable trust bar before agentic response ships</td>
+</tr>
+
+<tr>
+<td valign="top">Finance can't risk LLM hallucination on O2C data</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/Dodge-AI-FDE"><b>Dodge-AI-FDE</b></a><br/><sub>SAP order-to-cash data modeled as a graph; LLM is a strict router, never a guesser</sub></td>
+<td valign="top">Zero-hallucination query layer over sensitive financial data</td>
+</tr>
+
+<tr>
+<td valign="top">Farm ops need decisions committed, not advised</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/AI-Autonomous-Farming-Operator"><b>AI-Autonomous-Farming-Operator</b></a><br/><sub>Deterministic safety pipeline + conversational multi-agent layer (EN/HI)</sub></td>
+<td valign="top">System authorizes &amp; verifies real actions, not recommendations</td>
+</tr>
+
+<tr>
+<td valign="top">Support orgs need SLOs held under load</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/supportops-env"><b>supportops-env</b></a><br/><sub>OpenEnv benchmark: AI coordinator triaging tickets &amp; holding SLOs</sub></td>
+<td valign="top">Reproducible stress-test for agentic support ops</td>
+</tr>
+
+<tr>
+<td valign="top">Hidden system failures need diagnosis, not dashboards</td>
+<td valign="top"><a href="https://github.com/AtulJoshi1206/sentinel-os-agentic-benchmark"><b>sentinel-os-agentic-benchmark</b></a><br/><sub>Trajectory-scored diagnostic reasoning benchmark</sub></td>
+<td valign="top">Quantified recovery efficiency for LLM agents</td>
+</tr>
+
+</table>
+
+<br/>
+
+## 🛠️ Stack
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,typescript,react,fastapi,cpp,mongodb,docker,nodejs&theme=dark" />
+</div>
+
+<br/>
+
+## 📊 GitHub Activity
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=AtulJoshi1206&theme=dark&hide_border=true" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=AtulJoshi1206&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulJoshi1206&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="165"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/-Portfolio-1e3c72?style=flat&logo=vercel&logoColor=white)](https://atuljoshi.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atul-joshi-54928018a/)
+[![Gmail](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:atul.joshi1206@gmail.com)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/Atul_joshi/)
+
+<img src="https://komarev.com/ghpvc/?username=AtulJoshi1206&style=flat&color=1e3c72&label=Profile+Views" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=100&section=footer" width="100%"/>
+
+</div>
