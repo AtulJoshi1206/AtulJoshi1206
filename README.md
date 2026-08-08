@@ -1,102 +1,45 @@
-<h1 align="center">Hi , I'm Atul  Joshi( CodeVamp🧛) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center">Hi, I'm Atul Joshi 👋</h1>
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Engineering+Student;Aspiring+CPP+Programmer;Always%20Eager%20to%20learn%20new%20things&center=true&width=600&height=80"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Bridging+Business+Problems+%26+AI+Systems;Agentic+Ops+%7C+LLM+Benchmarks+%7C+Applied+AI;Turning+Operational+Pain+Points+into+Shipped+Systems&center=true&width=600&height=80"></a>
 </p>
 <hr/>
 
-## 💫 About Me:
-✨ Passionate about learning new technologies<br>🌱 Currently pushing the limits in <b>CPP</b><br><!-- 🔭 Working on a <b>Subscription based eCommerce Website</b><br> -->👯 Looking forward to collaborate on projects**<br>
+## 💫 About Me
 
-<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> 💻 Tech Stack & Tools:
-<!-- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) -->
-<!--![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)--> 
-![C++](https://img.shields.io/badge/C++-5C2D91?style=for-the-badge&logo=c++&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
-<!-- ### <img src="https://media.giphy.com/media/swhRkVYLJDrCE/giphy.gif" width = "40> Language Stats
- <div align="center">
+I sit at the intersection of **business operations and applied AI engineering** — translating messy, real-world ops problems (SLOs, fraud/violation review, order-to-cash reconciliation, incident response) into systems that make deterministic, auditable decisions, not just LLM suggestions.
 
-  <a>[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AJTITAN)](https://github.com/AJTITAN/github-readme-stats)</a>
+🔭 Currently building **agentic benchmarks & decision engines** that operators can actually trust in production<br>
+🧭 I work backwards from the business outcome (cost, SLA, risk) to the architecture, not the other way round<br>
+🤝 Open to collaborating on applied-AI / AI-ops projects with real stakeholders on the other end
 
-</div> -->
-### <img src="https://media4.giphy.com/media/QM3HY1v4Eym58qiY1i/giphy.gif?cid=790b7611e82baed6147e3d312c0cc603a3b114d27fae9bc0&rid=giphy.gif&ct=s" width="40"> Streak stats
+## 🧩 How I work: business problem → shipped system
+
+| Business problem | System I built | Outcome |
+|---|---|---|
+| Traffic violation review is slow & inconsistent | **[GridLock-VioScan](https://github.com/AtulJoshi1206/GridLock-VioScan)** — YOLOv8 + Gemini Vision detection, automated severity scoring (VSI) & fine-waiver logic | Evidence-backed, auditable violation pipeline |
+| SRE teams need to trust AI triage before it touches prod | **[IncidentOps-Agentic-SRE](https://github.com/AtulJoshi1206/IncidentOps-Agentic-SRE)** — OpenEnv benchmark scoring LLM triage/diagnosis/remediation | Measurable trust bar for agentic incident response |
+| Finance can't risk LLM hallucination on O2C data | **[Dodge-AI-FDE](https://github.com/AtulJoshi1206/Dodge-AI-FDE)** — SAP order-to-cash data as a graph; LLM is a strict router, never a guesser | Zero-hallucination query layer over sensitive financial data |
+| Farm ops need decisions committed, not just advice | **[AI-Autonomous-Farming-Operator](https://github.com/AtulJoshi1206/AI-Autonomous-Farming-Operator)** — deterministic safety pipeline + conversational multi-agent layer (EN/HI) | System authorizes & verifies real actions, not recommendations |
+| Support orgs need SLOs held under load | **[supportops-env](https://github.com/AtulJoshi1206/supportops-env)** — OpenEnv benchmark for an AI coordinator triaging tickets & holding SLOs | Reproducible stress-test for agentic support ops |
+| Hidden system failures need diagnosis, not dashboards | **[sentinel-os-agentic-benchmark](https://github.com/AtulJoshi1206/sentinel-os-agentic-benchmark)** — trajectory-scored diagnostic reasoning benchmark | Quantified recovery efficiency for LLM agents |
+
+## 💻 Tech Stack & Tools
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![C++](https://img.shields.io/badge/C++-5C2D91?style=for-the-badge&logo=c++&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+### 📊 Stats
 <div align="center">
 <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulJoshi1206&layout=compact&show_icon=true&theme=algolia" alt="AtulJoshi1206-langs"/>
-<!-- <img height="150em" src="https://github-readme-stats.vercel.app/api/?username=TangoBeee&layout=compact&show_icon=true&theme=algolia" alt="TangoBee-stats"/> -->
 </div>
 <div align="center">
-
-  <a>![Github streak][github-streak]</a>
-
+<img src="https://streak-stats.demolab.com?user=AtulJoshi1206&theme=algolia" alt="Github streak"/>
 </div>
-
-### <img src="https://media2.giphy.com/media/CCXzSZGI8TsIvYZjWo/200w.webp" width="40"> Trophies stats
-<div align="center">
-
-  <a>![Github trophy][github-trophy]</a>
-
-</div>
-
-## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="50" />  Coding Profiles  
-<div align="center">
-    
-  <a href="">[![GFG-Stats][gfg-stats-url]][gfg-url]</a>
-  
-  <a href="">[![Leetcode-Stats][leetcode-stats-url]][leetcode-url]</a>
-
-</div>
-
 
 ## 🙋‍♂️ Let's Connect
-[![Gmail][gmail-shield]][gmail-url]
-[![Linkedin][linkedin-shield]][linkedin-url]
-[![Github][github-shield]][github-url]
-[![LeetCode][leetcode-shield]][leetcode-url]
-[![Hackerrank][hackerrank-shield]][hackerrank-url]
-[![GFG][gfg-shield]][gfg-url]
-<br>
+[![Gmail](https://img.shields.io/badge/-Atul_Joshi-grey?style=flat&logo=gmail)](mailto:atul.joshi1206@gmail.com)
+[![Linkedin](https://img.shields.io/badge/-Atul_Joshi-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atul-joshi-54928018a/)
+[![Github](https://img.shields.io/badge/-Atul_Joshi-black?style=flat&logo=github)](https://github.com/AtulJoshi1206)
+[![LeetCode](https://img.shields.io/badge/-Atul_Joshi-grey?style=flat&logo=leetcode)](https://leetcode.com/Atul_joshi/)
 
-<div align="center">
-
-  <a href="https://github.com/AtulJoshi1206">![Footer quote][quote-url]</a>
-
-</div>
-<p align="center"> 
-  Visitor count<br>
+<p align="center">
   <img src="https://profile-counter.glitch.me/AtulJoshi1206/count.svg" />
 </p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[visitors-badge]: https://visitor-badge.glitch.me/badge?page_id=AtulJoshi1206
-[github-stars-shield]: https://img.shields.io/github/stars/Atul_Joshi?style=social
-[github-stats]:https://githubreadmestats.vercel.app/apiusername=AtulJoshi1206&theme=algolia&show_icons=true&include_all_commits=false&count_private=true&cache_seconds=7200
-[leetcode-stats-url]: https://leetcard.jacoblin.cool/Atul_joshi?theme=dark&font=Roboto&ext=heatmap
-[gfg-stats-url]: https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=atuljoshi1206
-[leetcode-url]: https://leetcode.com/Atul_joshi/
-[gfg-url]: https://auth.geeksforgeeks.org/user/atuljoshi1206
-[github-followers-shield]: https://img.shields.io/github/followers/AtulJoshi1206?style=social
-[github-language]: https://github-readme-stats.vercel.app/api/top-langs/?username=AtulJoshi1206&theme=algolia
-[github-streak]: https://streak-stats.demolab.com?user=AtulJoshi1206&theme=algolia
-[github-trophy]: https://github-profile-trophy.vercel.app/?username=AtulJoshi1206&theme=algolia
-[leetcode-problems-badge]: https://badges.peiyuan.ch/leetcode/Atul_joshi/solved?color=orange&logo=leetcode
-[gfg-rank-shield]: https://img.shields.io/badge/Institute%20Rank-150-green?labelColor=white&logo=geeksforgeeks&style=flat
-[leetcode-url]: https://leetcode.com/Atul_joshi/
-[gfg-url]: https://auth.geeksforgeeks.org/user/atuljoshi1206
-[hackerrank-shield]: https://img.shields.io/badge/-Atul_Joshi-black?style=flat&logo=hackerrank
-[hackerrank-url]: https://www.hackerrank.com/profile/atul_joshi1206
-[ssrn-shield]: https://img.shields.io/badge/-SSRN-informational?style=flat&logo=ssrn&logoColor=darkblue&color=white
-[ssrn-paper-url]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3867738
-[ieee-shield]: https://img.shields.io/badge/IEEE-informational?style=flat&logo=ieee
-[ieee-paper-url]: https://ieeexplore.ieee.org/document/9807998
-[quote-url]: https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical
-[gmail-shield]: https://img.shields.io/badge/-Atul_Joshi-grey?style=flat&logo=gmail
-[gmail-url]: mailto:atul.joshi1206@gmail.com
-[linkedin-shield]: https://img.shields.io/badge/-Atul_Joshi-blue?style=flat&logo=linkedin&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/atul-joshi-54928018a/
-[github-shield]: https://img.shields.io/badge/-Atul_Joshi-black?style=flat&logo=github
-[linkedin-shield]: https://img.shields.io/badge/-Atul_Joshi-blue?style=flat&logo=linkedin&logoColor=white
-[github-shield]: https://img.shields.io/badge/-Atul%20Joshi-black?style=flat&logo=github
-[quote-url]: https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia
-[leetcode-shield]: https://img.shields.io/badge/-Atul%20Joshi-grey?style=flat&logo=leetcode
-[gfg-shield]: https://img.shields.io/badge/-Atul%20Joshi-darkgreen?style=flat&labelColor=white&logo=geeksforgeeks
-[github-url]: https://github.com/AtulJoshi1206
