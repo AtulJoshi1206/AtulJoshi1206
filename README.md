@@ -80,7 +80,7 @@ Business pain point  →  Constraint-aware system design  →  Shipped, measurab
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AtulJoshi1206&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=AtulJoshi1206&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulJoshi1206&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="165"/>
 </div>
 
