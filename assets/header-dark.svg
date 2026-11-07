@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="Atul Joshi. AI Engineering, Product, Delivery.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#121a2c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#4fd1c5"/>
+      <stop offset="1" stop-color="#f2b155"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="280" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="279" rx="16" fill="none" stroke="#30363d"/>
+
+  <g stroke="#3b4553" stroke-width="1.6" stroke-linecap="round">
+    <line x1="800" y1="92" x2="840" y2="182"/>
+    <line x1="800" y1="92" x2="962" y2="72"/>
+    <line x1="800" y1="92" x2="1002" y2="150"/>
+    <line x1="840" y1="182" x2="1002" y2="150"/>
+    <line x1="840" y1="182" x2="952" y2="214"/>
+    <line x1="962" y1="72" x2="1002" y2="150"/>
+    <line x1="1002" y1="150" x2="952" y2="214"/>
+    <line x1="962" y1="72" x2="1122" y2="100"/>
+    <line x1="1002" y1="150" x2="1122" y2="100"/>
+    <line x1="1002" y1="150" x2="1164" y2="188"/>
+    <line x1="952" y1="214" x2="1164" y2="188"/>
+    <line x1="1122" y1="100" x2="1164" y2="188"/>
+  </g>
+  <g>
+    <circle cx="800" cy="92" r="20" fill="#58a6ff" fill-opacity="0.14"/>
+    <circle cx="800" cy="92" r="9" fill="#58a6ff"/>
+    <circle cx="840" cy="182" r="20" fill="#58a6ff" fill-opacity="0.14"/>
+    <circle cx="840" cy="182" r="9" fill="#58a6ff"/>
+    <circle cx="962" cy="72" r="20" fill="#4fd1c5" fill-opacity="0.14"/>
+    <circle cx="962" cy="72" r="9" fill="#4fd1c5"/>
+    <circle cx="1002" cy="150" r="24" fill="#4fd1c5" fill-opacity="0.14"/>
+    <circle cx="1002" cy="150" r="11" fill="#4fd1c5"/>
+    <circle cx="952" cy="214" r="20" fill="#4fd1c5" fill-opacity="0.14"/>
+    <circle cx="952" cy="214" r="9" fill="#4fd1c5"/>
+    <circle cx="1122" cy="100" r="20" fill="#f2b155" fill-opacity="0.14"/>
+    <circle cx="1122" cy="100" r="9" fill="#f2b155"/>
+    <circle cx="1164" cy="188" r="20" fill="#f2b155" fill-opacity="0.14"/>
+    <circle cx="1164" cy="188" r="9" fill="#f2b155"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#8b949e">
+    <text x="820" y="256" text-anchor="middle">PRODUCT</text>
+    <text x="977" y="256" text-anchor="middle">ENGINEERING</text>
+    <text x="1143" y="256" text-anchor="middle">DELIVERY</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="118" font-size="56" font-weight="700" fill="#e6edf3">Atul Joshi</text>
+    <rect x="64" y="140" width="112" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="190" font-size="25" font-weight="600" fill="#c9d1d9">AI Engineering · Product · Delivery</text>
+    <text x="64" y="226" font-size="18" fill="#8b949e">Building AI systems that make auditable decisions in production</text>
+  </g>
+</svg>

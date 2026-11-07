@@ -1,22 +1,59 @@
-# Atul Joshi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Atul Joshi. AI Engineering, Product, Delivery." src="assets/header-light.svg" width="100%">
+</picture>
 
-**AI Engineer & Delivery Lead** · agent systems, reliability and evaluation
+<p>
+  <a href="https://github.com/google/adk-python/pulls?q=is%3Apr+author%3AAtulJoshi1206"><img alt="Google ADK: 8 merged PRs" src="https://img.shields.io/badge/Google%20ADK-8%20merged%20PRs-4285F4?style=flat-square&logo=google&logoColor=white"></a>
+  <a href="https://github.com/aws-powertools/powertools-lambda-python/pulls?q=is%3Apr+author%3AAtulJoshi1206"><img alt="AWS Powertools: 3 merged PRs" src="https://img.shields.io/badge/AWS%20Powertools-3%20merged%20PRs-FF9900?style=flat-square"></a>
+  <a href="https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3AAtulJoshi1206"><img alt="AWS Strands Agents: contributor" src="https://img.shields.io/badge/AWS%20Strands%20Agents-contributor-232F3E?style=flat-square"></a>
+  <a href="https://github.com/microsoft/agent-framework/issues?q=author%3AAtulJoshi1206"><img alt="Microsoft Agent Framework: contributor" src="https://img.shields.io/badge/Microsoft%20Agent%20Framework-contributor-0078D4?style=flat-square"></a>
+</p>
 
 I build AI systems that make auditable decisions in production, and I fix the agent frameworks they run on.
 
 My work starts from a concrete constraint: an SLA at risk, a review process that's too slow, financial data nobody trusts an LLM near. It ends as a system where the model reasons and routes, while deterministic layers decide, verify and keep a record.
 
+**Currently:** Technical Lead (Product), AI & Business Operations at Weblife Labs. **Previously:** AI research at GEU AI Research Lab, and early engineering at Tesseris.
+
 [Portfolio](https://atuljoshi.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/atul-joshi-54928018a/) · [Email](mailto:atul.joshi1206@gmail.com)
 
 ---
 
+## What I bring
+
+| AI engineering | Product | Delivery & leadership |
+| --- | --- | --- |
+| Root-cause fixes merged into Google ADK and AWS Powertools | Start from the user and the business constraint, not the model | Technical Lead (Product) for AI and business operations |
+| Agent reliability: live sessions, MCP and tools, state under concurrency | Agree on what "working" means before building, then measure it | End-to-end ownership, from discovery to rollout |
+| Benchmarks that evaluate LLM agents on real operational tasks | Scope the smallest system that proves the outcome | Teaching and mentoring as an AI/ML teaching assistant |
+
+## How I take a problem to production
+
+```mermaid
+flowchart LR
+    A["Business problem"] --> B["Product framing<br/>users · success metric · scope"]
+    B --> C["System design<br/>model reasons, rules decide"]
+    C --> D["Build and verify<br/>tests that fail first"]
+    D --> E["Ship and measure<br/>rollout · outcome"]
+    E -. learn .-> B
+    classDef product fill:#ddf4ff,stroke:#0969da,color:#0a3069
+    classDef engineering fill:#d1f8f1,stroke:#1a7f72,color:#0b3d36
+    classDef delivery fill:#fff8c5,stroke:#bf8700,color:#4d2d00
+    class A,B product
+    class C,D engineering
+    class E delivery
+```
+
+The same discipline goes into every fix I send upstream:
+
+- name the invariant that broke;
+- cover every place that shared the flaw;
+- prove it with a test that fails before the change and passes after it.
+
+---
+
 ## Open-source contributions
-
-I contribute root-cause fixes to the frameworks that teams use to build agents. Each fix:
-
-- names the invariant that broke;
-- covers every place that shared the flaw;
-- ships with a test that fails before the change and passes after it.
 
 ### Google Agent Development Kit (ADK): 8 merged
 
@@ -43,15 +80,6 @@ Also contributing to [AWS Strands Agents](https://github.com/strands-agents/harn
 
 ---
 
-## How I work
-
-- **Start from the constraint, not the model.** Scope the problem with the people who own it, agree on what "working" means, then design the system around that.
-- **Root cause over symptoms.** Find the invariant that broke, fix every place that shares the flaw, and prove it with a test that fails before the change.
-- **Deterministic where it counts.** Let the model reason and route, and make the decision path verifiable and auditable.
-- **Own it end to end.** Take work from the problem statement to a shipped, measured outcome, keeping stakeholders and maintainers in the loop.
-
----
-
 ## Selected projects
 
 | Problem | System | Outcome |
@@ -71,7 +99,12 @@ Also contributing to [AWS Strands Agents](https://github.com/strands-agents/harn
 - **Evaluating LLM agents:** benchmarks with trajectory-based scoring for operations and incident response.
 - **Auditable AI decisions:** deterministic safety layers around model reasoning, with a record of every decision.
 
-**Tools:** Python, TypeScript, C++, FastAPI, React, Node.js, MongoDB, Docker, Google ADK, AWS Lambda, MCP, A2A, Gemini API, YOLOv8
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,react,nodejs,fastapi,docker,mongodb,aws,gcp,cpp&theme=dark">
+  <img alt="Python, TypeScript, React, Node.js, FastAPI, Docker, MongoDB, AWS, Google Cloud, C++" src="https://skillicons.dev/icons?i=python,ts,react,nodejs,fastapi,docker,mongodb,aws,gcp,cpp&theme=light">
+</picture>
+
+Also: Google ADK, MCP, A2A, Gemini API, YOLOv8.
 
 ---
 
