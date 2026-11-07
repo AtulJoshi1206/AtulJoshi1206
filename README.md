@@ -14,7 +14,7 @@ I build AI systems that make auditable decisions in production, and I fix the ag
 
 My work starts from a concrete constraint: an SLA at risk, a review process that's too slow, financial data nobody trusts an LLM near. It ends as a system where the model reasons and routes, while deterministic layers decide, verify and keep a record.
 
-**Currently:** Technical Lead (Product), AI & Business Operations at Weblife Labs. **Previously:** AI research at GEU AI Research Lab, and early engineering at Tesseris.
+**Currently:** AI and business operations at Weblife Labs. **Previously:** AI research at GEU AI Research Lab, and early engineering at Tesseris.
 
 [Portfolio](https://atuljoshi.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/atul-joshi-54928018a/) · [Email](mailto:atul.joshi1206@gmail.com)
 
@@ -24,7 +24,7 @@ My work starts from a concrete constraint: an SLA at risk, a review process that
 
 | AI engineering | Product | Delivery & leadership |
 | --- | --- | --- |
-| Root-cause fixes merged into Google ADK and AWS Powertools | Start from the user and the business constraint, not the model | Technical Lead (Product) for AI and business operations |
+| Root-cause fixes merged into Google ADK and AWS Powertools | Start from the user and the business constraint, not the model | Rolling out AI platforms to the teams that use them |
 | Agent reliability: live sessions, MCP and tools, state under concurrency | Agree on what "working" means before building, then measure it | End-to-end ownership, from discovery to rollout |
 | Benchmarks that evaluate LLM agents on real operational tasks | Scope the smallest system that proves the outcome | Teaching and mentoring as an AI/ML teaching assistant |
 
