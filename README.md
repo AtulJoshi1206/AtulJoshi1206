@@ -1,99 +1,78 @@
-<div align="center">
+# Atul Joshi
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Atul%20Joshi&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Bridging%20Business%20Problems%20%26%20AI%20Systems&descAlignY=62&descSize=18" width="100%"/>
+**AI Engineer & Delivery Lead** · agent systems, reliability and evaluation
 
-<a href="https://atuljoshi.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-atuljoshi.netlify.app-1e3c72?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/atul-joshi-54928018a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:atul.joshi1206@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+I build AI systems that make auditable decisions in production, and I fix the agent frameworks they run on.
 
-</div>
+My work starts from a concrete constraint: an SLA at risk, a review process that's too slow, financial data nobody trusts an LLM near. It ends as a system where the model reasons and routes, while deterministic layers decide, verify and keep a record.
 
-<br/>
+[Portfolio](https://atuljoshi.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/atul-joshi-54928018a/) · [Email](mailto:atul.joshi1206@gmail.com)
 
-## 🧭 What I actually do
+---
 
-I sit at the **intersection of business operations and applied AI engineering**. Most of my work starts as a business problem — an SLA at risk, a fraud/violation review process that's too slow, a finance dataset nobody trusts an LLM near — and ends as a system that makes deterministic, auditable decisions in production, not just LLM suggestions.
+## Open-source contributions
 
-```
-Business pain point  →  Constraint-aware system design  →  Shipped, measurable outcome
-```
+I contribute root-cause fixes to the frameworks that teams use to build agents. Each fix:
 
-<br/>
+- names the invariant that broke;
+- covers every place that shared the flaw;
+- ships with a test that fails before the change and passes after it.
 
-## 🧩 Problem → System → Outcome
+### Google Agent Development Kit (ADK): 8 merged
 
-<table>
-<tr><th align="left">Business problem</th><th align="left">System</th><th align="left">Outcome</th></tr>
+| Area | What was broken | PR |
+| --- | --- | --- |
+| Live API | A non-resumable update erased the session-resumption handle, so a reconnect in the middle of a turn lost the live conversation | [#7939](https://github.com/google/adk-python/pull/7939) |
+| Workflows | A `ParallelAgent` run as a workflow node passed one sub-agent's branch downstream, so the next step saw only that branch's output | [#7940](https://github.com/google/adk-python/pull/7940) |
+| Sessions | Concurrent sessions overwrote each other's shared `app:` and `user:` state on the SQL and Redis backends | [#7942](https://github.com/google/adk-python/pull/7942) |
+| MCP tools | Cancelling a run left the in-flight MCP tool call running | [#7199](https://github.com/google/adk-python/pull/7199) |
+| A2A | Converting a remote A2A task into an event kept only its last artifact | [#7201](https://github.com/google/adk-python/pull/7201) |
+| Instructions | Artifact placeholders inserted a raw `Part` dump instead of the artifact's text | [#7391](https://github.com/google/adk-python/pull/7391) |
+| Gemini streaming | With thought summaries on, the thought signature was attached to the summary text instead of its own part | [#7588](https://github.com/google/adk-python/pull/7588) |
+| Gemini client | Reused agents failed once their event loop was torn down; the client is now cached per event loop | [#7187](https://github.com/google/adk-python/pull/7187) |
 
-<tr>
-<td valign="top">Traffic violation review is slow &amp; inconsistent</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/GridLock-VioScan"><b>GridLock-VioScan</b></a><br/><sub>YOLOv8 + Gemini Vision detection, automated severity scoring (VSI) &amp; fine-waiver logic</sub></td>
-<td valign="top">Evidence-backed, auditable violation pipeline</td>
-</tr>
+### AWS Powertools for Lambda (Python): 3 merged
 
-<tr>
-<td valign="top">SRE teams need to trust AI triage before it touches prod</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/IncidentOps-Agentic-SRE"><b>IncidentOps-Agentic-SRE</b></a><br/><sub>OpenEnv benchmark scoring LLM triage / diagnosis / remediation</sub></td>
-<td valign="top">Measurable trust bar before agentic response ships</td>
-</tr>
+| Area | What was broken | PR |
+| --- | --- | --- |
+| Event handler | Exceptions raised inside `Depends()` dependencies skipped the registered exception handlers | [#8568](https://github.com/aws-powertools/powertools-lambda-python/pull/8568) |
+| Idempotency | Idempotent results containing UUIDs, datetimes or enums failed to save after the function had already run | [#8570](https://github.com/aws-powertools/powertools-lambda-python/pull/8570) |
+| VPC Lattice | Any request with a query string returned 404 | [#8572](https://github.com/aws-powertools/powertools-lambda-python/pull/8572) |
 
-<tr>
-<td valign="top">Finance can't risk LLM hallucination on O2C data</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/Dodge-AI-FDE"><b>Dodge-AI-FDE</b></a><br/><sub>SAP order-to-cash data modeled as a graph; LLM is a strict router, never a guesser</sub></td>
-<td valign="top">Zero-hallucination query layer over sensitive financial data</td>
-</tr>
+Also contributing to [AWS Strands Agents](https://github.com/strands-agents/harness-sdk/pulls?q=author%3AAtulJoshi1206), [Google ADK for Go](https://github.com/google/adk-go/issues?q=author%3AAtulJoshi1206) and [Microsoft Agent Framework](https://github.com/microsoft/agent-framework/issues?q=author%3AAtulJoshi1206).
 
-<tr>
-<td valign="top">Farm ops need decisions committed, not advised</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/AI-Autonomous-Farming-Operator"><b>AI-Autonomous-Farming-Operator</b></a><br/><sub>Deterministic safety pipeline + conversational multi-agent layer (EN/HI)</sub></td>
-<td valign="top">System authorizes &amp; verifies real actions, not recommendations</td>
-</tr>
+---
 
-<tr>
-<td valign="top">Support orgs need SLOs held under load</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/supportops-env"><b>supportops-env</b></a><br/><sub>OpenEnv benchmark: AI coordinator triaging tickets &amp; holding SLOs</sub></td>
-<td valign="top">Reproducible stress-test for agentic support ops</td>
-</tr>
+## How I work
 
-<tr>
-<td valign="top">Hidden system failures need diagnosis, not dashboards</td>
-<td valign="top"><a href="https://github.com/AtulJoshi1206/sentinel-os-agentic-benchmark"><b>sentinel-os-agentic-benchmark</b></a><br/><sub>Trajectory-scored diagnostic reasoning benchmark</sub></td>
-<td valign="top">Quantified recovery efficiency for LLM agents</td>
-</tr>
+- **Start from the constraint, not the model.** Scope the problem with the people who own it, agree on what "working" means, then design the system around that.
+- **Root cause over symptoms.** Find the invariant that broke, fix every place that shares the flaw, and prove it with a test that fails before the change.
+- **Deterministic where it counts.** Let the model reason and route, and make the decision path verifiable and auditable.
+- **Own it end to end.** Take work from the problem statement to a shipped, measured outcome, keeping stakeholders and maintainers in the loop.
 
-</table>
+---
 
-<br/>
+## Selected projects
 
-## 🛠️ Stack
+| Problem | System | Outcome |
+| --- | --- | --- |
+| Traffic violation review is slow and inconsistent | [GridLock-VioScan](https://github.com/AtulJoshi1206/GridLock-VioScan): YOLOv8 and Gemini Vision detection, automated severity scoring (VSI) and fine-waiver logic | An evidence-backed, auditable violation pipeline |
+| SRE teams need to trust AI triage before it touches production | [IncidentOps-Agentic-SRE](https://github.com/AtulJoshi1206/IncidentOps-Agentic-SRE): an OpenEnv benchmark scoring LLM triage, diagnosis and remediation | A measurable trust bar before agentic response ships |
+| Finance can't risk LLM hallucination on order-to-cash data | [Dodge-AI-FDE](https://github.com/AtulJoshi1206/Dodge-AI-FDE): SAP order-to-cash data modelled as a graph, with the LLM as a strict router, never a guesser | A zero-hallucination query layer over sensitive financial data |
+| Farm operations need decisions committed, not advised | [AI-Autonomous-Farming-Operator](https://github.com/AtulJoshi1206/AI-Autonomous-Farming-Operator): a deterministic safety pipeline with a conversational multi-agent layer in English and Hindi | The system authorizes and verifies real actions, not recommendations |
+| Support organizations need SLOs held under load | [supportops-env](https://github.com/AtulJoshi1206/supportops-env): an OpenEnv benchmark where an AI coordinator triages tickets and holds SLOs | A reproducible stress test for agentic support operations |
+| Hidden system failures need diagnosis, not dashboards | [sentinel-os-agentic-benchmark](https://github.com/AtulJoshi1206/sentinel-os-agentic-benchmark): a diagnostic-reasoning benchmark with trajectory-based scoring | Quantified recovery efficiency for LLM agents |
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,typescript,react,fastapi,cpp,mongodb,docker,nodejs&theme=dark" />
-</div>
+---
 
-<br/>
+## Focus areas
 
-## 📊 GitHub Activity
+- **Agent reliability:** live and streaming sessions, tool and MCP lifecycles, state under concurrency.
+- **Evaluating LLM agents:** benchmarks with trajectory-based scoring for operations and incident response.
+- **Auditable AI decisions:** deterministic safety layers around model reasoning, with a record of every decision.
 
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=AtulJoshi1206&theme=dark&hide_border=true" alt="GitHub Streak"/>
-</div>
+**Tools:** Python, TypeScript, C++, FastAPI, React, Node.js, MongoDB, Docker, Google ADK, AWS Lambda, MCP, A2A, Gemini API, YOLOv8
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/AtulJoshi1206/AtulJoshi1206/main/metrics.svg" alt="GitHub Metrics"/>
-</div>
+---
 
-<br/>
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/-Portfolio-1e3c72?style=flat&logo=vercel&logoColor=white)](https://atuljoshi.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atul-joshi-54928018a/)
-[![Gmail](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:atul.joshi1206@gmail.com)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/Atul_joshi/)
-
-<img src="https://komarev.com/ghpvc/?username=AtulJoshi1206&style=flat&color=1e3c72&label=Profile+Views" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=100&section=footer" width="100%"/>
-
-</div>
+Always happy to talk about agent infrastructure, evaluating LLM agents, or turning a messy business process into a reliable AI system. Reach me on [LinkedIn](https://www.linkedin.com/in/atul-joshi-54928018a/) or by [email](mailto:atul.joshi1206@gmail.com).
